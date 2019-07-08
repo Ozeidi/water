@@ -1,0 +1,43 @@
+Package: water
+Type: Package
+Title: Water Package
+Version: 0.1-0
+Author: Omar Al Zeidi, Islam Nasar
+Maintainer: Omar Al Zeidi <ozeidi91@gmail.com>,Islam Nasar <inas0002@student.monash.edu>
+Description: {This package encapsualtes useful function and tools used for water consumption analysis. 
+              For more details on the available function look up the documentation below}
+License: GNU GPL 
+Encoding: UTF-8
+LazyData: true
+Depends:
+        tsibble,
+        tidyverse,
+        xts,
+        glue,
+        sugrrants,
+        RColorBrewer,
+        lubridate,
+        forecast,
+        ggcal,
+        chron,
+        timeDate,
+        mclust,
+        clusterCrit,
+        reshape,
+        parallel,
+        pbapply,
+        scales,
+        digest,
+        lazyeval,
+        rlang,
+        data.table,
+        clusterSim,
+        plotly
+Remotes:
+        ropensci/plotly,
+        jayjacobs/ggcal,
+        robjhyndman/tsfeatures
+RoxygenNote: 6.1.0
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr
